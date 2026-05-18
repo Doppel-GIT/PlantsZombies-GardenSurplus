@@ -1,0 +1,17 @@
+#-------------
+GARLIC
+#-------------
+Biomes 		 - Birch Forests, Sulfur Cave (Rarely)
+Spawn Conditions - None
+Tag		 - Defense
+#-------------
+SUN	 	 - 7
+HP 		 - 30
+#-------------
+DMG		 - 0
+RNG		 - 0
+SPE		 - 0
+#-------------
+Additional Notes - Works like a Wallnut. When eaten, zombies are poisoned and slowed.
+If possible, make it drop aggro on the Garlic when it does so!
+#-------------
