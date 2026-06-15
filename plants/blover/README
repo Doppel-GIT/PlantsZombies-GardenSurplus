@@ -1,0 +1,18 @@
+#-------------
+BLOVER
+#-------------
+Biomes 		       - Flower Field, Mountains (above Y = 100)
+Spawn Conditions - None
+Tag		           - Utility
+#-------------
+SUN	 	 - 3
+HP 		 - 20
+#-------------
+DMG		 - 0
+RNG		 - 10
+SPE		 - 1.25s + 8s cooldown
+#-------------
+Additional Notes - Deals significant knockback to mobs caught in its attack radius.
+Note to Ryqx: Make the attack box large and in front of it. Make sure it has some height to it
+if we ever get balloon zombies.
+#-------------
