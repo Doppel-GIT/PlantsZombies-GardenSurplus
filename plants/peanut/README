@@ -1,0 +1,15 @@
+#-------------
+PEANUT
+#-------------
+Biomes 		 - Jungle
+Spawn Conditions - None
+Tag		 - Defense / Offense
+#-------------
+SUN	 	 - 6
+HP 		 - 45
+#-------------
+Additional Notes - Acts like a peashooter / repeater as well as a wallnut.
+Tanks damage while dishing out peas to Zombies.
+Fires two peas at 0.4 / 0.8 second intervals depending on health.
+Has a rare chance to mutate into a Three-Nut.
+#-------------
