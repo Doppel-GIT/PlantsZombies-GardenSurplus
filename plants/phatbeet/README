@@ -10,8 +10,8 @@ SUN	 	 - 7
 HP 		 - 20
 #-------------
 Additional Notes - Attack length is 1.5 seconds (attacks on 1).
-Attacks in an AOE, like uh.....................................
-Like something. You can figure it out, you're smart.
-Basically, does 4-8 AOE damage every time it attacks. This is to
-reflect how it can "crit" in PVZ 2.
+Attacks in an AOE like Fume Shroom.
+Does 4 / 8 damage (randomly, 25%) to emulate PVZ 2 crits.
+Always does 8 damage when a Jukebox is playing within 12 blocks.
+The Parrot has code that you may be able to use for this.
 #-------------
