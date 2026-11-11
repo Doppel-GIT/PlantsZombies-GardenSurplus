@@ -1,0 +1,17 @@
+#-------------
+PHAT BEET
+#-------------
+Biomes 		 - Spawns in temperate, non-extreme biomes.
+Example    - Can spawn in Taiga biomes, but not in Snowy Taiga biomes. Hope this isn't too much for you.
+Spawn Conditions - Only spawns on Coarse Dirt (biologically accurate)
+Tag		 - Offense
+#-------------
+SUN	 	 - 7
+HP 		 - 20
+#-------------
+Additional Notes - Attack length is 1.5 seconds (attacks on 1).
+Attacks in an AOE, like uh.....................................
+Like something. You can figure it out, you're smart.
+Basically, does 4-8 AOE damage every time it attacks. This is to
+reflect how it can "crit" in PVZ 2.
+#-------------
