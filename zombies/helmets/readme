@@ -1,0 +1,24 @@
+#-------------
+BUCKET
+#-------------
+Stats   - +1 Armor, +1 KB Resist, Break 5%
+#-------------
+Changes - Model, Stats
+Change Notes - Updated the model to resemble PvZ's buckethead model.
+Additionally, would be nice if you gave it +1 armor points and +1
+knockback resistance, like the cone and football helmet. Optional.
+#-------------
+
+
+#-------------
+BRICK HELMET
+#-------------
+Stats   - +2 Armor, +1 KB Resist, Break 2%
+#-------------
+Changes - Craftable by placing 5 bricks in a helmet pattern.
+Change Notes - This is essentially a worse version of the football
+helmet. It's easy to craft, but that's acceptable because A) it can't
+stack, and B) because iron economy lowkey doesn't matter.
+This is meant to be the tankiest "basic" armor a zombie can wear.
+That may change in the future.
+#-------------
