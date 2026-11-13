@@ -14,6 +14,7 @@ knockback resistance, like the cone and football helmet. Optional.
 BRICK HELMET
 #-------------
 Stats   - +2 Armor, +1 KB Resist, Break 2%
+Bonus   - Limits vision, like a pumpkin!
 #-------------
 Changes - Craftable by placing 5 bricks in a helmet pattern.
 Change Notes - This is essentially a worse version of the football
