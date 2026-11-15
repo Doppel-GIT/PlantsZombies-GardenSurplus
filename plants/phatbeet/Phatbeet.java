@@ -10,6 +10,11 @@ public class Phatbeet extends EntityModel<Entity> {
 	private final ModelPart left;
 	private final ModelPart right;
 	private final ModelPart bands;
+	private final ModelPart music notes;
+	private final ModelPart left note 1;
+	private final ModelPart left_note_2;
+	private final ModelPart right note 1;
+	private final ModelPart right_note_2;
 	public Phatbeet(ModelPart root) {
 		this.Body = root.getChild("Body");
 		this.bottom = this.Body.getChild("bottom");
@@ -19,6 +24,11 @@ public class Phatbeet extends EntityModel<Entity> {
 		this.left = this.muffs.getChild("left");
 		this.right = this.muffs.getChild("right");
 		this.bands = this.headphones.getChild("bands");
+		this.music notes = root.getChild("music notes");
+		this.left note 1 = this.music notes.getChild("left note 1");
+		this.left_note_2 = this.music notes.getChild("left_note_2");
+		this.right note 1 = this.music notes.getChild("right note 1");
+		this.right_note_2 = this.music notes.getChild("right_note_2");
 	}
 	public static TexturedModelData getTexturedModelData() {
 		ModelData modelData = new ModelData();
@@ -71,6 +81,24 @@ public class Phatbeet extends EntityModel<Entity> {
 		ModelPartData left 1_r1 = bands.addChild("left 1_r1", ModelPartBuilder.create().uv(46, 31).cuboid(-0.9596F, -1.846F, -1.0F, 1.0F, 2.0F, 1.0F, new Dilation(0.0F)), ModelTransform.of(-0.2268F, 0.5768F, -0.5F, 3.1416F, 0.0F, 2.3562F));
 
 		ModelPartData centerpiece_r1 = bands.addChild("centerpiece_r1", ModelPartBuilder.create().uv(46, 31).cuboid(-0.5F, -1.5F, -1.0F, 1.0F, 3.0F, 1.0F, new Dilation(0.0F)), ModelTransform.of(0.0464F, 1.5F, -0.5F, -3.1416F, 0.0F, 3.1416F));
+
+		ModelPartData music notes = modelPartData.addChild("music notes", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, 24.0F, 0.0F));
+
+		ModelPartData left note 1 = music notes.addChild("left note 1", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -5.5F, 0.0F));
+
+		ModelPartData note_r1 = left note 1.addChild("note_r1", ModelPartBuilder.create().uv(52, 46).cuboid(-1.5F, -1.5F, 0.0F, 3.0F, 3.0F, 0.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.2618F));
+
+		ModelPartData left_note_2 = music notes.addChild("left_note_2", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -5.5F, 0.0F));
+
+		ModelPartData note_r2 = left_note_2.addChild("note_r2", ModelPartBuilder.create().uv(52, 42).cuboid(-1.5F, -1.5F, 0.0F, 3.0F, 3.0F, 0.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, 0.0F, 0.0F, -0.1745F));
+
+		ModelPartData right note 1 = music notes.addChild("right note 1", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -5.5F, 0.0F));
+
+		ModelPartData note_r3 = right note 1.addChild("note_r3", ModelPartBuilder.create().uv(64, 46).cuboid(-1.5F, -1.5F, 0.0F, 3.0F, 3.0F, 0.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, 0.0F, 0.0F, -0.2618F));
+
+		ModelPartData right_note_2 = music notes.addChild("right_note_2", ModelPartBuilder.create(), ModelTransform.pivot(0.0F, -5.5F, 0.0F));
+
+		ModelPartData note_r4 = right_note_2.addChild("note_r4", ModelPartBuilder.create().uv(64, 42).cuboid(-1.5F, -1.5F, 0.0F, 3.0F, 3.0F, 0.0F, new Dilation(0.0F)), ModelTransform.of(0.0F, 0.0F, 0.0F, 0.0F, 0.0F, 0.1745F));
 		return TexturedModelData.of(modelData, 128, 128);
 	}
 	@Override
@@ -79,5 +107,6 @@ public class Phatbeet extends EntityModel<Entity> {
 	@Override
 	public void render(MatrixStack matrices, VertexConsumer vertexConsumer, int light, int overlay, float red, float green, float blue, float alpha) {
 		Body.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
+		music notes.render(matrices, vertexConsumer, light, overlay, red, green, blue, alpha);
 	}
 }
