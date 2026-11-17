@@ -1,0 +1,16 @@
+#-------------
+STALLIA
+#-------------
+Biomes 		       - N/A
+Spawn Conditions - Spawns around Trail Ruins (structure)
+Tag		           - Utility
+#-------------
+SUN	 	 - 3
+HP 		 - 20
+#-------------
+Additional Notes - Gives zombies in a 5x5 area butter effect (stunned)
+for 5 seconds, then slowness I and weakness I for another 5 seconds.
+Generally meant to be a basic debuffer / stunner like Ice Shroom.
+Feel free to adjust numbers to make it better / worse than Ice Shroom.
+There should be purple particles when it is used (reuse Dragon Breath).
+#-------------
