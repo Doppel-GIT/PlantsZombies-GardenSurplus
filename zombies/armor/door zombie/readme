@@ -1,0 +1,29 @@
+Spawn conditions ----------
+Door Zombies spawn with a random door.
+I would advise making them about half as rare as a Buckethead?
+You do you, though.
+
+70% - Screen Door
+20% - Biome-based Door (more on that later)
+7.5% - Copper Door
+2.5% - Iron Door
+
+Baby Zombies spawn with a trapdoor instead!
+Scale those down 10% if you are able. There is
+an example of what this should look like in here.
+-----------------------------
+Defenses -------------------
+Door Zombies take less damage from the front.
+Essentially, it acts like frontal armor of that tier.
+
+8 armor   - Basic Doors
+10 armor - Copper Door
+15 armor  - Iron Doors
+
+Door Zombies also take 50% damage from projectiles
+that hit them in the front. Reminder to NOT count above
+them for this calculation. Make a frontal hitbox.
+-----------------------------
+Drops ----------------------
+Door Zombies always drop their held door on death.
+It cannot be re-equipped by a player. 
