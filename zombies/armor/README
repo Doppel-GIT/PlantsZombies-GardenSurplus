@@ -24,5 +24,18 @@ This is meant to be the tankiest "basic" armor a zombie can wear.
 That may change in the future.
 
 Note: Crafting is optional. If not craftable, not the end of the world.
-Make the spawn weight of this brick helmet 15% of the bucket helmet.
+Make the spawn weight of this brick helmet 20% of the bucket helmet's.
+#-------------
+
+#-------------
+SCREEN DOOR
+#-------------
+Stats   - N/A (block)
+#-------------
+Changes - Craftable by replacing the middle two wood planks of any door
+recipe with iron nuggets. You could do this with 4 oak and 2 iron, or
+4 spruce and 2 iron, or 4 birch and 2 iron, and so on. Screen door!
+Change Notes - N/A
+
+Note: Details about Door Zombies are in the door-specific folder.
 #-------------
