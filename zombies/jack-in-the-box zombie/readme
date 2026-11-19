@@ -20,6 +20,9 @@ Has a lower aggro chance on players, if possible.
 #-------------
 ABILITIES
 #-------------
-Starts to explode at 10 HP or less.
-If it dies before this finishes, it does HALF damage.
+At 10 HP or less, throws the box straight up, and once
+it hits the ground it explodes and deals damage in the
+same radius as a creeper. This destroys blocks.
+The Zombie should continue to attack as though it had it's
+box stolen after this animation, if possible.
 #-------------
