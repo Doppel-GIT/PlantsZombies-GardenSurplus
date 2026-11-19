@@ -1,1 +1,37 @@
-e
+#-------------
+POGOSTICK ZOMBIE
+#-------------
+Biomes 		 - N/A
+Spawn Conditions - Only Spawns in Raids
+Rarity - 7.5/10 (10/10 is SUPER RARE)
+Tag		 - Defense
+#-------------
+MOUNTED STATS
+#-------------
+HP 		 - 30
+DMG		 - 2.5/3/4
+RNG		 - 2 + 1
+SPE		 - 2.5
+#-------------
+QUIRKS
+#-------------
+Loses Pogostick to Magnet Shroom. Weakness!
+Jumps automatically every .5 seconds, if able.
+Only attacks players and flags, ignores plants.
+Aggros to the flag.
+2.2 blocks tall. Think Wither Skeletons!
+#-------------
+ABILITIES
+#-------------
+Gets a Jump Boost when it gets within 20 blocks of the flag.
+Gains +1 Jump Boost (up to Lv6, yes, Lv6) every 3 seconds while within this radius.
+Loses -1 Jump Boost every 1 second while outside of this radius.
+Loses ALL Jump Boost when next to the flag (so it can hit it easier).
+#-------------
+DISMOUNTED STATS
+#-------------
+HP 		 - 30
+DMG		 - 2.5/3/4
+RNG		 - 2
+SPE		 - 2.3
+#-------------
