@@ -11,7 +11,7 @@ MOUNTED STATS
 HP 		 - 30
 DMG		 - 2.5/3/4
 RNG		 - 2 + 1
-SPE		 - 2.5
+SPE		 - 0.2 or 0.26, whichever is SLOWER (I don't know MC code)
 #-------------
 QUIRKS
 #-------------
@@ -33,5 +33,5 @@ DISMOUNTED STATS
 HP 		 - 30
 DMG		 - 2.5/3/4
 RNG		 - 2
-SPE		 - 2.3
+SPE		 - 2.3 (base Zombie)
 #-------------
