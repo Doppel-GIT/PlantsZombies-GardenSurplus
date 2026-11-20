@@ -1,0 +1,35 @@
+#-------------
+POLEVAULT ZOMBIE
+#-------------
+Biomes 	      	 - All BUT Mountains
+Spawn Conditions - N/A
+Rarity           - 4/10 (10/10 is SUPER RARE)
+Tag              - N/A
+#-------------
+ARMED STATS
+#-------------
+HP 		 - 25
+DMG		 - 4/6/8
+RNG		 - 2 + 2
+SPE		 - 0.2 or 0.25, whichever is faster (I don't know MC code)
+#-------------
+QUIRKS
+#-------------
+Pole Vault Stick acts like a spear with Lunge III when you M1 with it.
+The Polevault Zombie must use this to attack, rather than the M2 "charge."
+Reference the code of how Skeletons / non-Zombies use spears, if you need to.
+The Polevault Zombie jumps when attacking nuts or other walls.
+This is so that it can get OVER them, like in the games.
+It also needs to lose aggro after attacking anything but a Tall Nut.
+#-------------
+ABILITIES
+#-------------
+N/A
+#-------------
+DISARMED STATS
+#-------------
+HP 		 - 25
+DMG		 - 2.5/3/4
+RNG		 - 2
+SPE		 - 0.23 (base Zombie)
+#-------------
