@@ -4,14 +4,14 @@ JACK-IN-THE-BOX ZOMBIE
 Biomes 	      	 - N/A
 Spawn Conditions - N/A
 Rarity           - 9/10 (10/10 is SUPER RARE)
-Tag              - Typical Zombie
+Tag              - N/A
 #-------------
 STATS
 #-------------
 HP 		 - 30
 DMG		 - 2.5/3/4 - 30/40/60
 RNG		 - 2
-SPE		 - 3.0
+SPE		 - 0.15 or 0.3, whichever is faster (I don't know MC code)
 #-------------
 QUIRKS
 #-------------
